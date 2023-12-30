@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #242121;
+    color: snow;
+}
+
+.moreee{
+  margin-bottom: 20px;
+  padding: 10px 33px;
+}
+
+.topBooks{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  scale: 0.9;
+  gap: 70px;
+}
+
+.book1{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(113, 197, 244, 0.38);
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  border-radius: 200px 0 0 200px;
+}
+
+.book1 p{
+  color: #D2D2D2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.book1 img{
+  transform: rotate(-5deg);
+  box-shadow: 5px 5px 2px white, 10px 10px 2px rgb(198, 197, 197);
+  margin-right: 20px;
+}
+
+.book1 button{
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 17px;
+  font-weight: 300;
+  background: transparent;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.book1Des{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 150px;
+  height: 250px;
+  padding: 15px;
+}
+
+.FetchingData {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 2px 33px;
+  }
+  
+  .FetchingData h2 {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .FetchingData-item {
+    position: relative;
+    display: flex;
+  }
+  
+  .FetchingData-item img {
+    width: 202.89px;
+    height: 299.22px;
+    cursor: pointer;
+  }
+  
+  .FetchingData-details {
+    margin-top: 10px;
+    border-radius: 1px;
+    background: rgba(113, 197, 244, 0.38);
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 1050px;
+    flex-shrink: 0;  
+    padding: 25px;  
+  }
+  
+  .ratingDiv{
+    display: flex;
+    gap: 20px;
+    color: #E2E2E2;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .author{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .des{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 17px;
+  }
+
+  .titlenData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .titlenData p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  .twoBtn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  .twoBtn button{
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px 17px;
+    border-radius: 5px;
+    background: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .twoBtn button:hover{
+    background-color: rgb(168, 189, 251);
+    color: rgb(45, 48, 48);
+    font-weight: 600;
+  }
